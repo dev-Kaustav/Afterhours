@@ -4,13 +4,13 @@
     "description": "A warm VS Code dark theme",
     "version": "4.0.0",
     "publisher": "dev-Kaustav",
-    "icon": "../image/README/A.png",
+    "icon": "./image/README/A.png",
     "engines": {
         "vscode": "^1.56.0"
     },
     "repository": {
         "type": "git",
-        "url": "git@github.com:dev-Kaustav/Afterhours.git"
+        "url": "https://github.com/dev-Kaustav/Afterhours"
     },
     "keywords": [
         "theme",
