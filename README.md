@@ -2,7 +2,7 @@
 
 ### Screenshot
 
-![](image/README/1622026645234.png)
+![](https://github.com/dev-Kaustav/Afterhours/blob/master/image/README/1622026645234.png)
 
 ### Description
 
