@@ -1,0 +1,21 @@
+{
+    "name": "afterhours",
+    "displayName": "Afterhours",
+    "description": "A warm VS Code dark theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.56.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Afterhours",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Afterhours-color-theme.json"
+            }
+        ]
+    }
+}
