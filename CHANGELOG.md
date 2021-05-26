@@ -1,9 +1,15 @@
 # Change Log
 
-All notable changes to the "sunset" extension will be documented in this file.
+All notable changes to the "Afterhours" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [Unreleased]
+## [0.0.1]
 
-- Initial release
+-   Initial release
+
+## [1.0.0]
+
+-   Added icon file
+-   Updated README.md
+-   Added screenshots

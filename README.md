@@ -1,10 +1,14 @@
 # Afterhours Theme
 
+### Screenshot
+
+![](image/README/1622026645234.png)
+
 ### Description
 
-Afterhours is a dark Visual Studio Theme inspired by the great Horizon theme but adding some personal taste customizations.
+Afterhours is a dark Visual Studio Theme inspired by the great [Horizon](https://https://marketplace.visualstudio.com/items?itemName=jolaleye.horizon-theme-vscode#:~:text=Search%20for%20Horizon%20Theme,Enjoy!) theme but adding some personal taste customizations.
 
-The most important differences regarding Ayu Mirage theme are:
+The most important differences regarding Horizon theme are:
 
 -   Editor (active tab) "virtually" floating over the window
 -   Most divisions removed
