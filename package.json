@@ -4,7 +4,7 @@
     "description": "A warm VS Code dark theme",
     "version": "2.1.0",
     "publisher": "dev-Kaustav",
-    "icon": "https://github.com/dev-Kaustav/Afterhours/blob/master/image/README/A.png",
+    "icon": "..image/A.png",
     "engines": {
         "vscode": "^1.56.0"
     },
