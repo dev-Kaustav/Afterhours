@@ -134,7 +134,7 @@
         "terminal.ansiYellow": "#FAB795",
         "terminal.selectionBackground": "#6C6F934D",
         "terminalCursor.background": "#D5D8DA",
-        "terminalCursor.foreground": "#6C6F9380",
+        "terminalCursor.foreground": "#D5D8DA",
         "debugToolBar.background": "#14161d",
         "walkThrough.embeddedEditorBackground": "#232530",
         "gitDecoration.addedResourceForeground": "#27D797B3",
@@ -152,7 +152,12 @@
         },
         {
             "name": "Constants",
-            "scope": "constant",
+            "scope": [
+                "constant",
+                "entity.name.type.parameter",
+                "entity.name.type.cpp",
+                "support.type.primitive"
+            ],
             "settings": { "foreground": "#B877DBE6", "fontStyle": "" }
         },
         {
