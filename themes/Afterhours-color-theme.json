@@ -237,6 +237,7 @@
             "scope": [
                 "keyword.operator.logical",
                 "keyword.operator.comparison",
+                "keyword.operator.pointer",
                 "punctuation.separator.pointer-access.cpp"
             ],
             "settings": { "foreground": "#E95678E6", "fontStyle": "" }
