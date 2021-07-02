@@ -236,7 +236,8 @@
             "name": "Special operators",
             "scope": [
                 "keyword.operator.logical",
-                "keyword.operator.comparison"
+                "keyword.operator.comparison",
+                "punctuation.separator.pointer-access.cpp"
             ],
             "settings": { "foreground": "#E95678E6", "fontStyle": "" }
         },
