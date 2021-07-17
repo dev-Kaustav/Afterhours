@@ -38,7 +38,6 @@
         "list.errorForeground": "#F43E5CE6",
         "list.warningForeground": "#27D797B3",
         "activityBar.background": "#14161d",
-        // "activityBar.dropBackground": "#6C6F9380",
         "activityBar.foreground": "#FAB28E",
         "activityBar.inactiveForeground": "#333543",
         "activityBarBadge.background": "#FAB28E",
@@ -325,7 +324,7 @@
         {
             "name": "CSS property names",
             "scope": "support.type.property-name.css",
-            "settings": { "foreground": "#B877DBE6" }
+            "settings": { "foreground": "#FAC29AE6" }
         },
         {
             "name": "Language variables",
@@ -345,9 +344,7 @@
         {
             "name": "Tag brackets",
             "scope": "punctuation.definition.tag",
-            "settings": {
-                /*"foreground": "#25B0BCE6",*/ "foreground": "#E95678E6"
-            }
+            "settings": { "foreground": "#E95678E6" }
         },
         {
             "name": "Key/value separators",
