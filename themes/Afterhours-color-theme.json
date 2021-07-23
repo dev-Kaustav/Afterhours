@@ -56,7 +56,7 @@
         "tab.activeBackground": "#1C1E26",
         "tab.hoverBackground": "#333543",
         "editor.background": "#1C1E26",
-        "editorLineNumber.foreground": "#D5D8DA1A",
+        "editorLineNumber.foreground": "#d5d8da2a",
         "editorLineNumber.activeForeground": "#FAC29A",
         "editorCursor.background": "#1C1E26",
         "editorCursor.foreground": "#FAC29A",
@@ -155,7 +155,8 @@
                 "constant",
                 "entity.name.type.parameter",
                 "entity.name.type.cpp",
-                "support.type.primitive"
+                "support.type.primitive",
+                "entity.name.function.preprocessor"
             ],
             "settings": { "foreground": "#B877DBE6", "fontStyle": "" }
         },
@@ -283,8 +284,17 @@
         },
         {
             "name": "Strings",
-            "scope": ["string.quoted", "string.template"],
-            "settings": { "foreground": "#f5d7bbdc" }
+            "scope": [
+                "string.quoted",
+                "string.template",
+                "string.quoted.single.python"
+            ],
+            "settings": { "foreground": "#b8c0fff8" }
+        },
+        {
+            "name": "HTML Strings",
+            "scope": ["string.quoted.double.html", "string.template"],
+            "settings": { "foreground": "#F5D7BBDC" }
         },
         {
             "name": "Strings single",
@@ -322,8 +332,16 @@
             "settings": { "foreground": "#E95678E6" }
         },
         {
+            "name": "CSS property values (constant)",
+            "scope": "support.constant",
+            "settings": { "foreground": "#ffffffcb" }
+        },
+        {
             "name": "CSS property names",
-            "scope": "support.type.property-name.css",
+            "scope": [
+                "support.type.property-name.css",
+                "support.type.vendored.property-name.css"
+            ],
             "settings": { "foreground": "#FAC29AE6" }
         },
         {
