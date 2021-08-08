@@ -1,8 +1,22 @@
 # Afterhours Theme
 
-### Screenshot
+### Screenshots
 
-![](image/README/1622028434130.png)
+##### HTML
+
+![](image/README/HTML.png)
+
+##### CSS
+
+![](image/README/CSS.png)
+
+##### JS
+
+![](image/README/JS.png/)
+
+##### C++
+
+![](image/README/C++.png)
 
 ### Description
 
@@ -13,7 +27,7 @@ The most important differences regarding Horizon theme are:
 -   Editor (active tab) "virtually" floating over the window
 -   Most divisions removed
 -   Darker terminal, sidebar and titlebar
--   Some other minor customizations
+-   Optimised for programming languages
 
 ### For more information
 

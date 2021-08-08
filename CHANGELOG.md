@@ -13,3 +13,8 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 -   Added icon file
 -   Updated README.md
 -   Added screenshots
+
+## [4.1.5]
+
+-   Changed double qouted string color for programming languages
+-   Improved color theme for CSS and JS

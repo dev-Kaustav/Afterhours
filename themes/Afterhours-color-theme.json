@@ -283,17 +283,16 @@
             "settings": { "foreground": "#E95678E6", "fontStyle": "" }
         },
         {
-            "name": "Strings",
+            "name": "Strings for programming languages",
             "scope": [
-                "string.quoted",
-                "string.template",
+                "string.quoted.double.cpp",
                 "string.quoted.single.python"
             ],
             "settings": { "foreground": "#b8c0fff8" }
         },
         {
-            "name": "HTML Strings",
-            "scope": ["string.quoted.double.html", "string.template"],
+            "name": "Other Strings",
+            "scope": ["string.quoted.double", "string.template"],
             "settings": { "foreground": "#F5D7BBDC" }
         },
         {
