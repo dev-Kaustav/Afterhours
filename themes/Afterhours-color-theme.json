@@ -167,12 +167,12 @@
         },
         {
             "name": "Named entities",
-            "scope": "entity.name",
+            "scope": ["entity.name", "meta.function-call.arguments.python"],
             "settings": { "foreground": "#FAC29AE6" }
         },
         {
             "name": "Function names",
-            "scope": ["entity.name.function"],
+            "scope": ["entity.name.function", "meta.function-call.python"],
             "settings": { "foreground": "#F09483E6" }
         },
         {
@@ -228,7 +228,8 @@
             "scope": [
                 "keyword.operator.new",
                 "keyword.operator.expression",
-                "keyword.operator.delete"
+                "keyword.operator.delete",
+                "variable.language.special.self.python"
             ],
             "settings": { "foreground": "#B877DBE6", "fontStyle": "" }
         },
@@ -286,7 +287,8 @@
             "name": "Strings for programming languages",
             "scope": [
                 "string.quoted.double.cpp",
-                "string.quoted.single.python"
+                "string.quoted.single.python",
+                "string.quoted.docstring.multi.python"
             ],
             "settings": { "foreground": "#b8c0fff8" }
         },
@@ -345,7 +347,7 @@
         },
         {
             "name": "Language variables",
-            "scope": ["variable.language"],
+            "scope": ["variable.language", "source.python"],
             "settings": { "foreground": "#ffffffcb", "fontStyle": "" }
         },
         {
