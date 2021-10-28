@@ -146,7 +146,12 @@
     "tokenColors": [
         {
             "name": "Comments",
-            "scope": "comment",
+            "scope": [
+                "comment",
+                "string.quoted.docstring.single.python",
+                "string.quoted.docstring.double.python",
+                "string.quoted.docstring.multi.python"
+            ],
             "settings": { "foreground": "#BBBBBB4D", "fontStyle": "" }
         },
         {
@@ -288,7 +293,8 @@
             "scope": [
                 "string.quoted.double.cpp",
                 "string.quoted.single.python",
-                "string.quoted.multi.python"
+                "string.quoted.multi.python",
+                "string.quoted.double.python"
             ],
             "settings": { "foreground": "#b8c0fff8" }
         },
