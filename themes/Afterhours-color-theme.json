@@ -288,7 +288,7 @@
             "scope": [
                 "string.quoted.double.cpp",
                 "string.quoted.single.python",
-                "string.quoted.docstring.multi.python"
+                "string.quoted.multi.python"
             ],
             "settings": { "foreground": "#b8c0fff8" }
         },
